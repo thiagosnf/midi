@@ -1,12 +1,12 @@
 :root {
   ---fundo-base: #292929;
   ---fundo-topo: #121212;
-  --cinza: rgba(187, 187, 187, 0.884);
-  --branca: #fefefe;
+  --sombra: rgba(14, 14, 14, 0.884);
+  --botao: #191919;
   --luz: rgb(67, 209, 235);
-  --letra-midi: #23b6ff;
-  --letra: #116a92;
-  --letra-escura: #093246;
+  --letra-midi: #6bc5ee;
+  --letra: #6bc5ee;
+  --letra-escura: #116a92;
   --fundo-teclado-topo: #364f58;
   --fundo-teclado-base: #182d35;
   --borda-teclado: #111111;
@@ -41,9 +41,9 @@ h1 {
 }
 
 .tecla {
-  background-color: var(--branca);
+  background-color: var(--botao);
   border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
+  box-shadow: 3px 3px 0 var(--sombra);
   color: var(--letra);
   cursor: pointer;
   height: 120px;
@@ -59,7 +59,7 @@ h1 {
   background-color: var(--letra);
   border: 4px solid  var(--letra);
   box-shadow: 3px 3px 0 var(--letra-escura) inset;
-  color: var(--branca);
+  color: var(--botao);
   outline: none;
 }
 
